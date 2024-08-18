@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { useTranslations } from "next-intl"
 
-export function ModeToggle() {
+export function DarkmodeSwitcher() {
   const { setTheme } = useTheme()
   const t = useTranslations("DarkMode")
 
